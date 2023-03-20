@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #3a3a3a;
+    background: #000000;
 }
 .navbar .max-width{
     display: flex;
@@ -97,6 +97,11 @@ section .title::after{
 }
 .navbar .logo a{
     color: #4a4a4a;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar.sticky .logo a{
+    color: #ed3528;
     font-size: 35px;
     font-weight: 600;
 }
@@ -123,7 +128,7 @@ section .title::after{
     color: #ed3528;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: #ffffff;
 }
 
 .menu-btn{
